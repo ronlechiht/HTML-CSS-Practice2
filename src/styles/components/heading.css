@@ -12,3 +12,9 @@
   line-height: 16px;
   letter-spacing: 0.067em;
 }
+
+@media (min-width: 321px) {
+  .main-heading {
+    font-size: 32px;
+  }
+}
