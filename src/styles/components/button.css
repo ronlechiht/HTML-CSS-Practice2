@@ -6,3 +6,17 @@
   line-height: 13px;
   letter-spacing: 0.073em;
 }
+
+.btn-play {
+  width: 56px;
+  height: 56px;
+  background: url("../../assets/images/page-header/play-button.png");
+}
+
+@media screen and (min-width: 1200px) {
+  .btn-play {
+    width: 72px;
+    height: 72px;
+    background: url("../../assets/images/page-header/play-button-desktop.png");
+  }
+}

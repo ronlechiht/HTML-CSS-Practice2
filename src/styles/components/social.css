@@ -8,3 +8,8 @@
   width: 95px;
 }
 
+@media screen and (min-width: 1200px) {
+  .header-social {
+    width: 165px;
+  }
+}
