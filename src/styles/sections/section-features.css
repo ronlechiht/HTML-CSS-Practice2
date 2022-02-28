@@ -1,0 +1,49 @@
+.section-features {
+  padding: 28px 0px 38px 0px;
+}
+
+.features-sub-heading {
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  margin: 3px 0px 29px 0px;
+}
+
+.article-item {
+  display: grid;
+  max-width: 256px;
+  grid-template-columns: 20% 80%;
+  column-gap: 8px;
+  margin: 0px auto 40px auto;
+}
+
+.article-item:last-child {
+  margin-bottom: 37px;
+}
+
+.responsive-layout-img {
+  height: 34px;
+  background: url("../../assets/images/section-features/responsive-layouts.png") no-repeat center;
+}
+
+.pixel-perfect-img {
+  height: 29px;
+  background: url("../../assets/images/section-features/pixel-perfect.png") no-repeat center;
+}
+
+.organized-layers-img {
+  height: 34px;
+  background: url("../../assets/images/section-features/organized-layers.png") no-repeat center;
+}
+
+.article-detail {
+  max-width: 33ch;
+  margin-top: 8px;
+}
+
+.mac-img {
+  height: 169px;
+  background: url("../../assets/images/section-features/mac-img.jpg") no-repeat center;
+  background-size: contain;
+}
