@@ -1,0 +1,46 @@
+.section-download {
+  padding: 45px 0px 103px 0px;
+  background: url("../../assets/images/section-download/download-background.jpg") no-repeat center;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.download-description {
+  margin: 7px auto 20px auto;
+  text-align: center;
+  max-width: 39ch;
+}
+
+.btn-download {
+  padding: 9px 37px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-download {
+    padding: 57px 0px 90px 0px;
+  }
+
+  .download-description {
+    margin: 26px auto 29px auto;
+    max-width: 75ch;
+  }
+
+  .btn-download {
+    padding: 13px 37px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section-download {
+    padding: 163px 0px 192px 0px;
+  }
+
+  .download-description {
+    margin: 23px auto 42px auto;
+    max-width: 62ch;
+  }
+
+  .btn-download {
+    padding: 15px 57px;
+  }
+}
