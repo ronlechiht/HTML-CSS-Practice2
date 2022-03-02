@@ -8,6 +8,12 @@
   width: 95px;
 }
 
+.customer-social {
+  display: flex;
+  column-gap: 14px;
+  margin-top: 18px;
+}
+
 @media screen and (min-width: 1200px) {
   .header-social {
     width: 165px;
