@@ -1,6 +1,11 @@
 .btn {
+  display: block;
+  margin: 0 auto;
   background-color: #ebcb80;
   border-radius: 50px;
+}
+
+.btn>a {
   color: #4b4b4b;
   text-transform: uppercase;
   line-height: 13px;
