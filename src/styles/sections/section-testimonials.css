@@ -69,3 +69,38 @@
   height: 18px;
   background: url("../../assets/images/section-testimonials/testimonials-social.png") -95.83px 0;
 }
+
+@media screen and (min-width: 768px) {
+  .section-testimonials {
+    padding: 41px 0px 28px 0px;
+  }
+
+  .customers-table {
+    grid-template-columns: auto auto;
+    column-gap: 30px;
+    row-gap: 8px;
+    margin: 31px auto 0px auto;
+    max-width: 720px;
+  }
+
+  .customer {
+    grid-template-columns: 102px auto;
+    column-gap: 8px;
+    padding-bottom: 24px;
+  }
+
+  .customer-img {
+    width: 64px;
+    height: 64px;
+    margin-top: 22px;
+  }
+
+  .customer-name {
+    line-height: 32px;
+    margin-top: 20px;
+  }
+
+  .customer-comment {
+    margin-top: 2px;
+  }
+}
