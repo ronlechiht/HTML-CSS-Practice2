@@ -26,10 +26,9 @@
   margin-top: 9px;
 }
 
-.customer-rectangle {
+.divider-solid {
   max-width: 200px;
-  height: 2px;
-  background-color: #f6f6f6;
+  border: 1px solid #f6f6f6;
   margin-top: 4px;
 }
 
@@ -43,6 +42,8 @@
   height: 48px;
   justify-self: center;
   margin-top: 16px;
+  border: 2px solid #e6e6e6;
+  border-radius: 50%;
 }
 
 .customer-facebook {
@@ -52,13 +53,13 @@
 }
 
 .customer-linkedin {
-  width: 18.45px;
+  width: 19px;
   height: 18px;
   background: url("../../assets/images/section-testimonials/testimonials-social.png") -31.98px 0;
 }
 
 .customer-twitter {
-  width: 22.52px;
+  width: 23px;
   height: 18px;
   background: url("../../assets/images/section-testimonials/testimonials-social.png") -64.88px 0;
 }
