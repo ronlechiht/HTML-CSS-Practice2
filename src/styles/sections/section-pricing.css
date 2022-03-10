@@ -1,0 +1,240 @@
+.section-pricing {
+  padding: 52px 0px 40px 0px;
+  background: #f6f6f6;
+}
+
+.pricing-title {
+  letter-spacing: normal;
+  line-height: 23px;
+}
+
+.list-plan {
+  position: relative;
+  margin-top: 52px;
+}
+
+.plan {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 22px 0px 28px 0px;
+  margin: 0px auto;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.plan-1 {
+  top: -10px;
+  z-index: 1;
+  background: linear-gradient(224.09deg, rgba(255, 255, 255, 0.7) 5.13%, 
+  rgba(255, 255, 255, 7e-05) 90.88%), #4b4b4b;
+  background-blend-mode: soft-light;
+  width: 160px;
+  color: #ffffff;
+}
+
+.plan-2 {
+  z-index: 2;
+  background: linear-gradient(225deg, rgba(255, 255, 255, 0.496575) 0%, 
+  rgba(255, 255, 255, 0.0001) 100%), #ebcb80;
+  background-blend-mode: soft-light;
+  width: 190px;
+}
+
+.plan-3 {
+  top: -19px;
+  background: linear-gradient(223.49deg, rgba(0, 0, 0, 0.0001) 4.85%, 
+  rgba(0, 0, 0, 0.401127) 96.5%), #4b4b4b;
+  background-blend-mode: multiply;
+  width: 140px;
+  color: #ffffff;
+}
+
+.plan-title {
+  text-align: center;
+  line-height: 27px;
+}
+
+.plan-1 .plan-title,
+.plan-3 .plan-title {
+  font-family: 'lucida-grande-bold', sans-serif;
+  color: #ebcb80;
+}
+
+.plan-price {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -0.033em;
+  margin-top: -10px;
+}
+
+.dollar {
+  font-size: 11px;
+  line-height: 13px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.plan-period {
+  text-align: center;
+  margin-top: 4px;
+}
+
+.plan-detail {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btn-purchase {
+  margin-top: 24px;
+  padding: 9px 39px;
+  background-color: #4b4b4b;
+  border-radius: 50px;
+}
+
+.plan-1 .btn-purchase,
+.plan-3 .btn-purchase {
+  background-color: #ebcb80;
+}
+
+.plan-2 .btn-purchase>a {
+  color: #ffffff;
+}
+
+.plan-nav {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: center;
+  margin-top: 340px;
+}
+
+.select-plan {
+  padding: 4px 10px;
+  background-color: #f6f6f6;
+  border-radius: 48px;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.067em;
+  color: #4b4b4b;
+}
+
+.plan-active {
+  background-color: #ebcb80;
+}
+
+@media screen and (min-width: 768px) {
+  .section-pricing {
+    padding: 56px 0px 78px 0px;
+  }
+
+  .pricing-title {
+    line-height: 40px;
+  }
+
+  .list-plan {
+    position: static;
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: 170px 170px 170px;
+    column-gap: 43px;
+    justify-content: center;
+  }
+
+  .plan {
+    position: static;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .plan:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .plan-1,
+  .plan-2,
+  .plan-3 {
+    width: 100%;
+  }
+
+  .plan-price {
+    margin-top: 14px;
+  }
+
+  .plan-period {
+    margin-top: -4px;
+  }
+
+  .plan-detail {
+    margin-top: 17px;
+  }
+
+  .btn-purchase {
+    margin-top: 20px;
+    padding: 13px 29px;
+  }
+
+  .plan-nav {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section-pricing {
+    padding: 71px 0px 115px 0px;
+  }
+
+  .pricing-title {
+    letter-spacing: -0.036em;
+  }
+
+  .list-plan {
+    margin-top: 56px;
+    grid-template-columns: 270px 270px 270px;
+    column-gap: 68px;
+  }
+
+  .plan {
+    padding-top: 42px;
+    padding-bottom: 36px;
+  }
+
+  .plan-title {
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.056em;
+  }
+
+  .plan-price {
+    font-size: 64px;
+    line-height: 48px;
+    letter-spacing: -0.04em;
+    margin-top: 30px;
+  }
+
+  .dollar {
+    font-size: 24px;
+    line-height: 28px;
+    margin-right: 10px;
+    margin-top: 0px;
+  }
+
+  .plan-period {
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.056em;
+    margin-top: 15px;
+  }
+
+  .plan-detail {
+    margin-top: 23px;
+  }
+
+  .btn-purchase {
+    margin-top: 30px;
+    padding: 15px 45px;
+  }
+}

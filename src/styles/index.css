@@ -1,23 +1,24 @@
 /* Import base */
-@import url("../styles/bases/normalize.css");
-@import url("../styles/bases/base.css");
+@import url("bases/normalize.css");
+@import url("bases/base.css");
 
 /* Import components */
-@import url("../styles/components/logo.css");
-@import url("../styles/components/heading.css");
-@import url("../styles/components/social.css");
-@import url("../styles/components/button.css");
-@import url("../styles/components/navigation.css");
-@import url("../styles/components/pagination.css");
+@import url("components/logo.css");
+@import url("components/heading.css");
+@import url("components/social.css");
+@import url("components/button.css");
+@import url("components/navigation.css");
+@import url("components/pagination.css");
 
 /* Import layouts */
-@import url("../styles/layouts/header.css");
-@import url("../styles/layouts/page-layout.css");
-@import url("../styles/layouts/footer.css");
+@import url("layouts/header.css");
+@import url("layouts/page-layout.css");
+@import url("layouts/footer.css");
 
 /* Import section */
-@import url("../styles/sections/page-header.css");
-@import url("../styles/sections/section-features.css");
-@import url("../styles/sections/section-download.css");
-@import url("../styles/sections/section-testimonials.css");
+@import url("sections/page-header.css");
+@import url("sections/section-features.css");
+@import url("sections/section-download.css");
+@import url("sections/section-testimonials.css");
+@import url("sections/section-pricing.css");
 
