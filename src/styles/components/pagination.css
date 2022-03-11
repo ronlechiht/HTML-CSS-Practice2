@@ -1,6 +1,6 @@
 .portfolio-pagination {
   display: grid;
-  grid-template-columns: repeat(6, 45px);
+  grid-template-columns: repeat(7, 45px);
   justify-content: center;
   align-items: center;
   margin-top: 25px;
@@ -42,4 +42,20 @@
 
 .dot-active {
   background-color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio-pagination {
+    margin-top: 41px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio-pagination {
+    margin-top: 65px;
+  }
+
+  .pagination-page {
+    font-size: 18px;
+  }
 }
