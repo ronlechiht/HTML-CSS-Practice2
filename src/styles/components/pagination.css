@@ -29,7 +29,10 @@
 }
 
 .vertical-dotnav {
-
+  display: flex;
+  justify-content: center;
+  margin-top: 36px;
+  column-gap: 9px;
 }
 
 .dot {
@@ -48,6 +51,13 @@
   .pagination {
     margin-top: 41px;
   }
+
+  .vertical-dotnav {
+    flex-direction: column;
+    margin-top: 76px;
+    margin-left: 42px;
+    row-gap: 9px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -57,5 +67,18 @@
 
   .pagination-page {
     font-size: 18px;
+  }
+
+  .vertical-dotnav {
+    margin-top: 106px;
+    margin-left: 89px;
+    row-gap: 11px;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 7.5px;
   }
 }
