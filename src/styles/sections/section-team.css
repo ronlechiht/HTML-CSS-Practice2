@@ -1,0 +1,68 @@
+.section-team {
+  padding: 34px 0px 32px 0px;
+  background: url("../../assets/images/section-team/team-background-mobile.jpg") no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.teammate-info {
+  padding-left: 40px;
+}
+
+.teammate-name {
+  text-transform: capitalize;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.025em;
+}
+
+.teammate-position {
+  margin-top: 5px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.067em;
+}
+
+.teammate-description {
+  margin-top: 24px;
+  max-width: 38ch;
+}
+
+@media screen and (min-width: 768px) {
+  .section-team {
+    padding: 103px 37px 31px 0px;
+    display: flex;
+    justify-content: right;
+  }
+  
+  .teammate-info {
+    padding-left: 0;
+  }
+
+  .teammate-description {
+    max-width: 46ch;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section-team {
+    padding: 229px 149px 68px 0px;
+  }
+
+  .teammate-name {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .teammate-position {
+    margin-top: 7px;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.056em;
+  }
+
+  .teammate-description {
+    margin-top: 22px;
+    max-width: 40ch;
+  }
+}
