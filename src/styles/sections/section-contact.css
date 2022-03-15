@@ -1,0 +1,18 @@
+.section-contact {
+  padding-top: 23px;
+}
+
+.contact-body {
+  margin-top: 18px;
+  display: grid;
+  justify-items: center;
+}
+
+.name-email {
+  display: grid;
+  grid-template-columns: 45% 45%;
+}
+
+.input-message {
+  grid-column: 1/3;
+}
