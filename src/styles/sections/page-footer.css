@@ -1,0 +1,139 @@
+.page-footer {
+  padding: 25px 0px 28px 0px;
+  background-color: #4b4b4b;
+  color: #ffffff;
+  display: grid;
+  justify-items: center;
+}
+
+.hofmann-title {
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.055em;
+  color: #ebcb80;
+}
+
+.hofmann-describe {
+  margin-top: 6px;
+  text-align: center;
+  font-size: 12px;
+  max-width: 42ch;
+}
+
+.subscribe-form {
+  margin-top: 16px;
+}
+
+.subscribe-label {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.067em;
+}
+
+.subscribe-input {
+  margin-top: 21px;
+  display: flex;
+  border: 0.533px solid #7d7d7d;
+  box-sizing: border-box;
+  border-radius: 2.133px;
+}
+
+.subscribe-email {
+  padding-left: 8px;
+  flex-grow: 1;
+  background-color: #4b4b4b;
+}
+
+.subscribe-email::placeholder {
+  line-height: 14px;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.btn-subscribe {
+  width: 26px;
+  height: 24px;
+  border-radius: 0px 2.133px 2.133px 0px;
+  background-image: url("../../assets/images/page-footer/subscribe-button-mobile.png");
+}
+
+.footer-nav {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 90px);
+  column-gap: 10px;
+  row-gap: 8px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 12px;
+}
+
+.footer-nav-item {
+  color: #ffffff;
+}
+
+.footer-nav-item:hover {
+  text-decoration: underline;
+}
+
+.follow-us {
+  margin-top: 32px;
+}
+
+.follow-header {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.067;
+}
+
+.follow-social {
+  margin-top: 12px;
+  display: flex;
+  justify-items: center;
+  column-gap: 20px;
+}
+
+.footer-pinterest {
+  width: 18px;
+  height: 18px;
+  background: url("../../assets/images/page-footer/footer-social-mobile.png") 0 0;
+}
+
+.footer-linkedin {
+  width: 18px;
+  height: 18px;
+  background: url("../../assets/images/page-footer/footer-social-mobile.png") -38px 0;
+}
+
+.footer-googleplus {
+  width: 26px;
+  height: 18px;
+  background: url("../../assets/images/page-footer/footer-social-mobile.png") -76px 0;
+}
+
+.footer-twitter {
+  width: 23px;
+  height: 18px;
+  background: url("../../assets/images/page-footer/footer-social-mobile.png") -121px 0;
+}
+
+.footer-facebook {
+  width: 19px;
+  height: 18px;
+  background: url("../../assets/images/page-footer/footer-social-mobile.png") -163px 0;
+}
+
+.footer-instagram {
+  width: 19px;
+  height: 18px;
+  background: url("../../assets/images/page-footer/footer-social-mobile.png") -202px 0;
+}
+
+.hofmann-copyright {
+  margin-top: 20px;
+}
