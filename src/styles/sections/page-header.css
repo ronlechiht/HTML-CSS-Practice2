@@ -6,6 +6,10 @@
   color: #ffffff;
 }
 
+.hofmann-logo>a:hover {
+  text-decoration: underline;
+}
+
 .header-nav {
   display: flex;
   align-items: center;
@@ -116,6 +120,10 @@
     letter-spacing: 0.056em;
     font-size: 18px;
     line-height: 21px;
+  }
+
+  .nav-item:hover {
+    color: #6699cc;
   }
 
   .header-twitter {
