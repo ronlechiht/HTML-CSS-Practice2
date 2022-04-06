@@ -1,5 +1,10 @@
 .social-item {
   display: inline;
+  position: relative;
+}
+
+.social-item:hover {
+  top: -3px;
 }
 
 .header-social {
