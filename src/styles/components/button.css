@@ -3,17 +3,14 @@
   margin: 0 auto;
   background-color: #ebcb80;
   border-radius: 50px;
-}
-
-.btn:hover {
-  cursor: pointer;
-}
-
-.btn>a {
   color: #4b4b4b;
   text-transform: uppercase;
   line-height: 13px;
   letter-spacing: 0.073em;
+}
+
+.btn:hover {
+  cursor: pointer;
 }
 
 .btn-play {
