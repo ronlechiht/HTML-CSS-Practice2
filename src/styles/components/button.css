@@ -5,6 +5,10 @@
   border-radius: 50px;
 }
 
+.btn:hover {
+  cursor: pointer;
+}
+
 .btn>a {
   color: #4b4b4b;
   text-transform: uppercase;
@@ -16,6 +20,10 @@
   width: 56px;
   height: 56px;
   background: url("../../assets/images/page-header/play-button.png");
+}
+
+.btn-play:hover {
+  cursor: pointer;
 }
 
 @media screen and (min-width: 1200px) {
