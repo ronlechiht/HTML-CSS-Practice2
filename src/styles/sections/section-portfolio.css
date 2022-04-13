@@ -4,10 +4,7 @@
       "item-1 item-2 item-2"
       "item-3 item-3 item-4"
       "item-5 item-6 item-7";
-  width: 80%;
-  margin: 0 auto;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  max-width: 1140px;
 }
 
 .portfolio-item .portfolio-item-img {
