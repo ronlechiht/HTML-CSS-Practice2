@@ -8,6 +8,7 @@
 @import url("components/social.css");
 @import url("components/button.css");
 @import url("components/pagination.css");
+@import url("components/ultilities.css");
 
 /* Import layouts */
 @import url("layouts/page-layout.css");

@@ -8,6 +8,10 @@
   justify-items: center;
 }
 
+.contact-iphone-img {
+  display: none;
+}
+
 .input-group {
   display: grid;
   grid-template-columns: repeat(2, 114px);
