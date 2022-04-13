@@ -11,9 +11,10 @@
 
 /* Import layouts */
 @import url("layouts/page-layout.css");
+@import url("layouts/page-header.css");
+@import url("layouts/page-footer.css");
 
 /* Import section */
-@import url("sections/page-header.css");
 @import url("sections/section-features.css");
 @import url("sections/section-download.css");
 @import url("sections/section-testimonials.css");
@@ -21,4 +22,3 @@
 @import url("sections/section-portfolio.css");
 @import url("sections/section-team.css");
 @import url("sections/section-contact.css");
-@import url("sections/page-footer.css");
