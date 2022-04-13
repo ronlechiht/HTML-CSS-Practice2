@@ -23,7 +23,7 @@
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.plan-1 {
+.plan:nth-child(1) {
   top: -10px;
   z-index: 1;
   background: linear-gradient(224.09deg, rgba(255, 255, 255, 0.7) 5.13%, 
@@ -33,7 +33,7 @@
   color: #ffffff;
 }
 
-.plan-2 {
+.plan:nth-child(2) {
   z-index: 2;
   background: linear-gradient(225deg, rgba(255, 255, 255, 0.496575) 0%, 
   rgba(255, 255, 255, 0.0001) 100%), #ebcb80;
@@ -41,7 +41,7 @@
   width: 190px;
 }
 
-.plan-3 {
+.plan:nth-child(3) {
   top: -19px;
   background: linear-gradient(223.49deg, rgba(0, 0, 0, 0.0001) 4.85%, 
   rgba(0, 0, 0, 0.401127) 96.5%), #4b4b4b;
@@ -55,8 +55,8 @@
   line-height: 27px;
 }
 
-.plan-1 .plan-title,
-.plan-3 .plan-title {
+.plan:nth-child(1) .plan-title,
+.plan:nth-child(3) .plan-title {
   font-family: 'lucida-grande-bold', sans-serif;
   color: #ebcb80;
 }
@@ -94,12 +94,12 @@
   border-radius: 50px;
 }
 
-.plan-1 .btn-purchase,
-.plan-3 .btn-purchase {
+.plan:nth-child(1) .btn-purchase,
+.plan:nth-child(3) .btn-purchase {
   background-color: #ebcb80;
 }
 
-.plan-2 .btn-purchase {
+.plan:nth-child(2) .btn-purchase {
   color: #ffffff;
 }
 
@@ -154,9 +154,9 @@
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   }
 
-  .plan-1,
-  .plan-2,
-  .plan-3 {
+  .plan:nth-child(1),
+  .plan:nth-child(2),
+  .plan:nth-child(3) {
     width: 100%;
   }
 
