@@ -7,13 +7,13 @@
 @import url("components/heading.css");
 @import url("components/social.css");
 @import url("components/button.css");
-@import url("components/navigation.css");
+/* @import url("components/navigation.css"); */
 @import url("components/pagination.css");
 
 /* Import layouts */
-@import url("layouts/header.css");
+/* @import url("layouts/header.css"); */
 @import url("layouts/page-layout.css");
-@import url("layouts/footer.css");
+/* @import url("layouts/footer.css"); */
 
 /* Import section */
 @import url("sections/page-header.css");
