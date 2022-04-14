@@ -3,19 +3,24 @@
   margin: 0 auto;
   background-color: #ebcb80;
   border-radius: 50px;
-}
-
-.btn>a {
   color: #4b4b4b;
   text-transform: uppercase;
   line-height: 13px;
   letter-spacing: 0.073em;
 }
 
+.btn:hover {
+  cursor: pointer;
+}
+
 .btn-play {
   width: 56px;
   height: 56px;
   background: url("../../assets/images/page-header/play-button.png");
+}
+
+.btn-play:hover {
+  cursor: pointer;
 }
 
 @media screen and (min-width: 1200px) {

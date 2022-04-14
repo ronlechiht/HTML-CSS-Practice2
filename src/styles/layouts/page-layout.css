@@ -1,15 +1,27 @@
-.d-none {
-  display: none;
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-@media screen and (min-width: 768px){
-  .tablet-d-none {
-    display: none;
+.content-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding-right: 24px;
+    padding-left: 24px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .desktop-d-none {
-    display: none;
+  .container {
+    padding-right: 150px;
+    padding-left: 150px;
   }
 }

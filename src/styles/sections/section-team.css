@@ -5,10 +5,6 @@
   color: #ffffff;
 }
 
-.teammate-info {
-  padding-left: 40px;
-}
-
 .teammate-name {
   text-transform: capitalize;
   font-size: 24px;
@@ -30,13 +26,15 @@
 
 @media screen and (min-width: 768px) {
   .section-team {
-    padding: 103px 37px 31px 0px;
+    padding: 103px 0px 31px 0px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .section-team .content-container {
     display: flex;
     justify-content: right;
-  }
-  
-  .teammate-info {
-    padding-left: 0;
+    grid-column: 2/3;
   }
 
   .teammate-description {
@@ -46,7 +44,7 @@
 
 @media screen and (min-width: 1200px) {
   .section-team {
-    padding: 229px 149px 68px 0px;
+    padding: 229px 0px 68px 0px;
   }
 
   .teammate-name {
