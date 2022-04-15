@@ -48,6 +48,9 @@
 .mac-img {
   display: block;
   margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
 @media screen and (min-width: 768px) {
@@ -139,9 +142,5 @@
   .article-detail {
     max-width: 30ch;
     margin-top: 4px;
-  }
-
-  .mac-img {
-
   }
 }
