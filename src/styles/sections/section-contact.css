@@ -5,7 +5,6 @@
 .contact-body {
   margin-top: 18px;
   display: grid;
-  justify-items: center;
 }
 
 .contact-iphone-img {
@@ -14,12 +13,13 @@
 
 .input-group {
   display: grid;
-  grid-template-columns: repeat(2, 114px);
+  grid-template-columns: 1fr 1fr;
   column-gap: 11px;
   row-gap: 19px;
 }
 
 .form-input {
+  width: 100%;
   font-size: 11px;
   line-height: 16px;
   padding-bottom: 4px;
@@ -47,6 +47,7 @@
   flex-direction: column;
   margin-top: 35px;
   row-gap: 10px;
+  justify-self: center;
 }
 
 .info-location,
@@ -125,13 +126,12 @@
   
   .contact-body {
     margin-top: 48px;
-    grid-template-columns: 283px 251px;
+    grid-template-columns: 45% 45%;
     justify-content: center;
     column-gap: 30px;
   }
   
   .input-group {
-    grid-template-columns: repeat(2, 132px);
     column-gap: 17px;
     row-gap: 18px;
   }
@@ -166,7 +166,7 @@
   }
   
   .contact-body {
-    grid-template-columns: 360px 361px 360px;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 80px;
     margin-top: 69px;
   }
@@ -180,7 +180,6 @@
   }
   
   .input-group {
-    grid-template-columns: repeat(2, 166px);
     column-gap: 28px;
     row-gap: 38px;
   }
