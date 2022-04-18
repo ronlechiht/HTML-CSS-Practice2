@@ -3,7 +3,6 @@
   background-color: #4b4b4b;
   color: #ffffff;
   display: grid;
-  justify-items: center;
 }
 
 .hofmann-title {
@@ -16,7 +15,7 @@
 }
 
 .hofmann-describe {
-  margin-top: 6px;
+  margin: 6px auto 0 auto;
   text-align: center;
   font-size: 12px;
   max-width: 42ch;
@@ -24,6 +23,8 @@
 
 .subscribe-form {
   margin-top: 16px;
+  padding-left: 72px;
+  padding-right: 72px;
 }
 
 .subscribe-label {
@@ -68,12 +69,14 @@
 .footer-nav {
   margin-top: 20px;
   display: grid;
-  grid-template-columns: repeat(3, 90px);
+  grid-template-columns: repeat(3, 1fr);
   column-gap: 10px;
   row-gap: 8px;
   text-align: center;
   text-transform: capitalize;
   font-size: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .footer-nav-item {
@@ -100,6 +103,7 @@
   margin-top: 12px;
   display: flex;
   justify-items: center;
+  justify-content: center;
   column-gap: 20px;
 }
 
@@ -141,6 +145,7 @@
 
 .hofmann-copyright {
   margin-top: 20px;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {

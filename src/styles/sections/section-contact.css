@@ -16,6 +16,8 @@
   grid-template-columns: 1fr 1fr;
   column-gap: 11px;
   row-gap: 19px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .form-input {
@@ -126,7 +128,7 @@
   
   .contact-body {
     margin-top: 48px;
-    grid-template-columns: 45% 45%;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     column-gap: 30px;
   }
@@ -182,6 +184,8 @@
   .input-group {
     column-gap: 28px;
     row-gap: 38px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   
   .form-input {
