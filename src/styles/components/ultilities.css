@@ -2,14 +2,26 @@
   display: none;
 }
 
+.d-block {
+  display: block;
+}
+
 @media screen and (min-width: 768px){
   .tablet-d-none {
     display: none;
+  }
+
+  .tablet-d-block {
+    display: block;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .desktop-d-none {
     display: none;
+  }
+
+  .desktop-d-block {
+    display: block;
   }
 }
