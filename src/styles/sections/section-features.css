@@ -46,9 +46,11 @@
 }
 
 .mac-img {
-  height: 169px;
-  background: url("../../assets/images/section-features/mac-img.jpg") no-repeat center;
-  background-size: contain;
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
 @media screen and (min-width: 768px) {
@@ -62,11 +64,11 @@
 
   .features-content {
     display: grid;
-    grid-template-columns: 43% 57%;
+    grid-template-columns: 1fr 2fr;
   }
 
   .features-article {
-    margin: auto 26px auto 50px;
+    margin: auto 0;
   }
 
   .article-item {
@@ -78,11 +80,17 @@
   }
 
   .mac-img {
-    width: 100%;
-    height: 463px;
-    background: url("../../assets/images/section-features/mac-img-desktop.jpg") no-repeat;
-    background-size: cover;
-    justify-self: end;
+    display: none;
+  }
+
+  .mac-img-container {
+    align-self: center;
+  }
+
+  .mac-img-desktop {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
   }
 }
 
@@ -134,10 +142,5 @@
   .article-detail {
     max-width: 30ch;
     margin-top: 4px;
-  }
-
-  .mac-img {
-    background-size: contain;
-    justify-self: normal;
   }
 }
