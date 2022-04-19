@@ -1,6 +1,4 @@
 .container {
-  width: 90%;
-  max-width: 720px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -12,13 +10,11 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 1140px;
-  }
+
 }
 
 @media screen and (min-width: 1200px) {
-  .container {
-    max-width: 1320px;
+  main {
+    max-width: 1440px;
   }
 }

@@ -1,5 +1,5 @@
 .section-features {
-  padding: 28px 0px 38px 0px;
+  padding: 28px 15px 38px 15px;
 }
 
 .features-sub-heading {
@@ -55,7 +55,7 @@
 
 @media screen and (min-width: 768px) {
   .section-features {
-    padding: 42px 0px 40px 0px;
+    padding: 42px 24px 40px 24px;
   }
 
   .features-sub-heading {

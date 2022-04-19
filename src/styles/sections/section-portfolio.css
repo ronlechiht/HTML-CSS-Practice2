@@ -12,6 +12,8 @@
       "item-6 item-6"
       "item-7 item-7";
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .portfolio-item .portfolio-item-img {
@@ -116,6 +118,8 @@
         "item-6 item-6 item-2"
         "item-5 item-7 item-4";
     grid-template-columns: repeat(3, minmax(0, 1fr));
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .project-info {
@@ -196,6 +200,8 @@
 
   .portfolio-list {
     margin-top: 54px;
+    padding-left: 150px;
+    padding-right: 150px;
   }
 
   .project-title {
